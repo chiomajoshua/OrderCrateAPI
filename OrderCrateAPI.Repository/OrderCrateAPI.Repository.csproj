@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OrderCrateAPI.Contracts\OrderCrateAPI.Contracts.csproj" />
+    <ProjectReference Include="..\OrderCrateAPI.Helpers\OrderCrateAPI.Helpers.csproj" />
+  </ItemGroup>
+
+</Project>
